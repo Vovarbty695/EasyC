@@ -35,9 +35,9 @@
 
 //Times
 
-#define pause_system system("pause")
-#define clear_screen system("cls")
-#define clear_screen system("clear")
+//#define pause_system system("pause")
+//#define clear_screen system("cls")
+//#define clear_screen system("clear")
 #define wait(s) std::this_thread::sleep_for(std::chrono::seconds(s))
 
 #ifdef _WIN32
