@@ -11,5 +11,7 @@ start() {
 	input(Text);
 	print(Text);
 
+	print_color_messange(RED, "hello world");
+
 	done;
 }
